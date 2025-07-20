@@ -29,7 +29,7 @@ import letterheadImage from "@assets/printed-envelope.jpg";
 import foodBox from "@assets/IMG-20250712-WA0015_1752494051441.jpg";
 import gallery6 from "@assets/IMG-20250712-WA0020_1752494051443.jpg";
 import toysImage from "@assets/IMG-20250712-WA0030_1752494374096.jpg";
-import customPack from "@assets/IMG-20250712-WA0017_1752491780018.jpg";
+import customPack from "@assets/15046_1752494051436.jpg";
 
 
 
@@ -67,7 +67,16 @@ export default function ServicesPage() {
       title: "Pharmaceutical Boxes",
       description: "Specialized pharmaceutical packaging solutions meeting industry standards for medicine, tablets, and healthcare products.",
       image: pharmaBox1,
-      features: ["Medicine Boxes", "Tablet Packaging", "Healthcare Products", "Regulatory Compliant"],
+      features: [
+        "Medicine Boxes",
+        "Tablet Packaging",
+        "Healthcare Products",
+        "Regulatory Compliant",
+        "Boxes Inners Outers",
+        "Mono Cartons",
+        "Catch Covers",
+        "Leaflets"
+      ],
       gallery: [pharmaBox1, pharmaBox2, pharmaBox3, pharmaBox4, medicineBoxImage]
     },
     {
