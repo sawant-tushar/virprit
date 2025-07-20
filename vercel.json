@@ -19,11 +19,8 @@
             "dest": "/server/api/$1"
         },
         {
-            "handle": "filesystem"
-        },
-        {
             "src": "/(.*)",
-            "dest": "/dist/public/index.html"
+            "dest": "/index.html"
         }
     ]
 }
