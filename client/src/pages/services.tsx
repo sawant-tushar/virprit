@@ -6,7 +6,7 @@ import SEO from "@/components/SEO";
 import boxImage1 from "@assets/2209.i518.002.S.m005.c13.realistic box mockup design set_1752494051433.jpg";
 import boxImage2 from "@assets/depressing-blue-monday-composition_1752494051439.jpg";
 import boxImage3 from "@assets/15046_1752494051436.jpg";
-import labelImage1 from "@assets/IMG-20250712-WA0031_1752494374097.jpg";
+import labelImage1 from "@assets/IMG-20250712-WA0027_1752494374093.jpg";
 import labelImage2 from "@assets/4992296_1752494051438.jpg";
 import invitationImage from "@assets/384474-PC21ZY-538_1752494051438.jpg";
 import tagImage from "@assets/4992296_1752494051438.jpg";

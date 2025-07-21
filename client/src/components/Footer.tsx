@@ -40,7 +40,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-300">
-              <p><i className="fas fa-phone mr-2"></i> +91 86685 00982</p>
+              <p><i className="fas fa-phone mr-2"></i>+91 86685 00982</p>
+              <p><i className="fas fa-phone mr-2"></i>+91 92097 65493</p>
+              <p><i className="fas fa-phone mr-2"></i>+91 88069 56519</p>
               <p><i className="fas fa-envelope mr-2"></i> virpritprint1311@gmail.com</p>
               <p><i className="fas fa-map-marker-alt mr-2"></i> B-52, 1st Floor, Wadhan Industrial Estate, near SBI Bank, Gaurai Pada, Vasai (E), Maharashtra 401208, India</p>
               <p><i className="fas fa-clock mr-2"></i> Mon-Sat: 10:00 AM - 6:00 PM</p>

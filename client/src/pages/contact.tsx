@@ -174,6 +174,18 @@ export default function ContactPage() {
 
                 <div className="flex items-start">
                   <div className="bg-primary/10 rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0">
+                    <i className="fas fa-file-invoice text-primary"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-1">GST Number</h3>
+                    <p className="text-muted-foreground">
+                      27DDFPK4781K1Z2
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-primary/10 rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0">
                     <i className="fas fa-envelope text-primary"></i>
                   </div>
                   <div>
@@ -192,7 +204,8 @@ export default function ContactPage() {
                     <h3 className="text-lg font-semibold text-foreground mb-1">Phone</h3>
                     <p className="text-muted-foreground">
                       +91 86685 00982<br />
-                      +91 92097 65493
+                      +91 92097 65493<br />
+                      +91 88069 56519<br />
                     </p>
                   </div>
                 </div>
@@ -223,8 +236,10 @@ export default function ContactPage() {
                     </p>
                   </div>
                 </div>
+
               </div>
             </div>
+
           </div>
         </div>
       </section>
