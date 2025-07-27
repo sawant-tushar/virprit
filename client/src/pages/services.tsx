@@ -230,10 +230,9 @@ export default function ServicesPage() {
                 </div>
 
                 <CardContent className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
-                  <a href={`/services${service.detailsLink}`}>
-                    <p className="text-muted-foreground mb-4 text-sm">{service.description}</p>
-                  </a>
+                  <a href={`/services${service.detailsLink}`}><h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3></a>
+                  
+                  <p className="text-muted-foreground mb-4 text-sm">{service.description}</p>
 
                   <div className="mb-4">
                     <h4 className="text-base font-semibold text-foreground mb-2">Key Features:</h4>
