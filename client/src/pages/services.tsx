@@ -61,7 +61,8 @@ export default function ServicesPage() {
       description: "Beautiful and elegant sweet boxes for gifting, festivals, and special occasions with premium finishing and custom designs.",
       image: gallery6,
       features: ["Gift Sweet Boxes", "Festival Sweet Boxes", "Wedding Sweet Boxes", "Premium Designs"],
-      gallery: [boxImage2]
+      gallery: [boxImage2],
+      detailsLink: "/sweet-boxes-details"
     },
     {
       title: "Pharmaceutical Boxes",
@@ -77,84 +78,116 @@ export default function ServicesPage() {
         "Catch Covers",
         "Leaflets"
       ],
-      gallery: [pharmaBox1, pharmaBox2, pharmaBox3, pharmaBox4, medicineBoxImage]
+      gallery: [pharmaBox1, pharmaBox2, pharmaBox3, pharmaBox4, medicineBoxImage],
+      detailsLink: "/pharmaceutical-boxes-details"
     },
     {
       title: "Consumer Packaging Boxes",
       description: "High-quality consumer goods packaging for retail products, electronics, and everyday items with attractive designs.",
       image: cosmeticBox,
       features: ["Retail Packaging", "Electronics Boxes", "Consumer Goods", "Brand Enhancement"],
-      gallery: [cosmeticBox, boxImage3, corrugatedBox]
+      gallery: [cosmeticBox, boxImage3, corrugatedBox],
+      detailsLink: "/consumer-packaging-boxes-details"
     },
     {
       title: "Customized Packaging Boxes",
       description: "Fully customized packaging solutions tailored to your specific product requirements and brand identity.",
       image: customPack,
       features: ["Custom Designs", "Brand Identity", "Specific Requirements", "Professional Finish"],
-      gallery: [perfumeBox, cosmeticBox, boxImage1]
+      gallery: [perfumeBox, cosmeticBox, boxImage1],
+      detailsLink: "/customized-packaging-boxes-details"
     },
     {
       title: "Perfume Boxes",
       description: "Luxury perfume packaging boxes with premium finishes for cosmetics and fragrance products.",
       image: perfumeBox,
       features: ["Luxury Packaging", "Cosmetic Boxes", "Premium Finishes", "Elegant Designs"],
-      gallery: [perfumeBox, cosmeticBox]
+      gallery: [perfumeBox, cosmeticBox],
+      detailsLink: "/perfume-boxes-details"
     },
     {
       title: "Food Boxes",
       description: "Food-grade packaging solutions for takeaway, delivery, bakery items, and food products.",
       image: foodBox,
       features: ["Takeaway Boxes", "Bakery Packaging", "Food Grade Material", "Delivery Solutions"],
-      gallery: [foodBox, spiceBox]
+      gallery: [foodBox, spiceBox],
+      detailsLink: "/food-boxes-details"
     },
     {
       title: "White Boxes",
       description: "Clean and professional white boxes suitable for various products and industries with versatile applications.",
       image: blankPaperImage,
       features: ["Versatile Use", "Clean Design", "Professional Look", "Multi-Purpose"],
-      gallery: [blankPaperImage, corrugatedBox, boxImage3]
-    },
-    {
-      title: "Chocolate Boxes",
-      description: "Specialized chocolate packaging boxes designed to preserve freshness and enhance product presentation.",
-      image: boxImage2,
-      features: ["Freshness Protection", "Premium Presentation", "Gift Packaging", "Custom Sizes"],
-      gallery: [boxImage1, boxImage2, perfumeBox, cosmeticBox]
+      gallery: [blankPaperImage, corrugatedBox, boxImage3],
+      detailsLink: "/white-boxes-details"
     },
     {
       title: "Masala Boxes",
       description: "Spice and masala packaging boxes with moisture protection and attractive branding for food products.",
       image: spiceBox,
       features: ["Spice Packaging", "Moisture Protection", "Food Grade", "Brand Enhancement"],
-      gallery: [spiceBox, foodBox]
+      gallery: [spiceBox, foodBox],
+      detailsLink: "/masala-boxes-details"
     },
     {
       title: "Tags and Stickers",
       description: "High-quality tags and stickers for product identification, pricing, and promotional purposes.",
       image: labelImage2,
       features: ["Product Tags", "Price Tags", "Promotional Stickers", "Custom Designs"],
-      gallery: [blankTags, clothingTags]
+      gallery: [blankTags, clothingTags],
+      detailsLink: "/tags-and-stickers-details"
     },
     {
       title: "Labels",
       description: "Professional labels for product identification, branding, and regulatory compliance with various finishes.",
       image: labelImage1,
       features: ["Product Labels", "Barcode Labels", "Warning Labels", "Waterproof Labels"],
-      gallery: [labelImage1, labelImage2, tagImage]
+      gallery: [labelImage1, labelImage2, tagImage],
+      detailsLink: "/labels-details"
     },
     {
       title: "Toy and Game Boxes",
       description: "Colorful and attractive packaging for toys and games designed to appeal to children and parents.",
       image: toysImage,
       features: ["Toy Packaging", "Game Boxes", "Child-Safe Materials", "Attractive Designs"],
-      gallery: [boxImage3, corrugatedBox]
+      gallery: [boxImage3, corrugatedBox],
+      detailsLink: "/toy-and-game-boxes-details"
     },
     {
       title: "Stationery",
       description: "Professional business stationery including envelopes, letterheads, and corporate communication materials.",
       image: letterheadImage,
-      features: ["Business Letterheads", "Corporate Envelopes", "Professional Design", "Quality Paper"],
-      gallery: [letterheadImage, envelopeImage, stationeryImage, businessCardImage]
+      features: ["Business Letterheads", "Corporate Envelopes", "Visiting Cards", "Professional Design", "Quality Paper"],
+      gallery: [letterheadImage, envelopeImage, stationeryImage, businessCardImage],
+      detailsLink: "/stationery-details"
+    },
+    {
+      title: "Brochure Leaflets",
+      description: "Elevate Your Brand with Impactful Brochure Leaflets",
+      image: invitationImage,
+      features: [
+        "Multi-fold, bi-fold, tri-fold, and Z-fold options",
+        "Premium quality paper (Matt, Gloss, Art Paper, etc.)",
+        "Full-color, edge-to-edge printing",
+        "Custom sizes and die-cut shapes available",
+        "Eye-catching designs tailored to your brand identity"
+      ],
+      gallery: [],
+      detailsLink: "/brochure-leaflets-details"
+    },
+    {
+      title: "Catalogues",
+      description: "Showcase Your Products Professionally with Custom Catalogues",
+      image: customPack,
+      features: [
+        "Perfect bound, saddle-stitched, or spiral binding",
+        "Available in A4, A5, and custom sizes",
+        "Rich color printing on high GSM paper",
+        "Matte/Gloss lamination, Spot UV, Foil stamping, and Embossing options",
+        "Multi-page formats: 4 pages to 100+ pages"
+      ],
+      gallery: [],
+      detailsLink: "/catalogues-details"
     }
   ];
 
@@ -225,9 +258,14 @@ export default function ServicesPage() {
                     </div>
                   )} */}
 
-                  <Button asChild className="w-full mt-auto bg-accent hover:bg-accent/90 text-white">
-                    <Link href="/contact">Get Quote</Link>
-                  </Button>
+                  <div className="mt-auto flex space-x-2">
+                    <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white">
+                      <Link href={`/services${service.detailsLink}`}>Details</Link>
+                    </Button>
+                    <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white">
+                      <Link href="/contact">Get Quote</Link>
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}

@@ -11,6 +11,7 @@ import AboutPage from "@/pages/about";
 import ServicesPage from "@/pages/services";
 import ContactPage from "@/pages/contact";
 import NotFound from "@/pages/not-found";
+import ServiceDetailsPage from "@/pages/service-detail";
 
 function Router() {
   return (
@@ -19,6 +20,8 @@ function Router() {
       <Route path="/about" component={AboutPage} />
       <Route path="/services" component={ServicesPage} />
       <Route path="/contact" component={ContactPage} />
+      <Route path="/services/:serviceName" component={ServiceDetailsPage}> {/* Dynamic route for service details */}
+      </Route>
       <Route component={NotFound} />
     </Switch>
   );
