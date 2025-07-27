@@ -220,16 +220,20 @@ export default function ServicesPage() {
             {services.map((service, index) => (
               <Card key={index} className="product-card overflow-hidden fade-in flex flex-col">
                 <div className="h-48 overflow-hidden">
-                  <img
-                    src={service.image}
-                    alt={`${service.title} - professional printing and packaging solutions`}
-                    className="w-full h-full object-cover"
-                  />
+                  <a href={`/services${service.detailsLink}`}>
+                    <img
+                      src={service.image}
+                      alt={`${service.title} - professional printing and packaging solutions`}
+                      className="w-full h-full object-cover"
+                    />
+                  </a>
                 </div>
 
                 <CardContent className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
-                  <p className="text-muted-foreground mb-4 text-sm">{service.description}</p>
+                  <a href={`/services${service.detailsLink}`}>
+                    <p className="text-muted-foreground mb-4 text-sm">{service.description}</p>
+                  </a>
 
                   <div className="mb-4">
                     <h4 className="text-base font-semibold text-foreground mb-2">Key Features:</h4>
