@@ -556,6 +556,12 @@ import cakeBoxes3 from "@assets/Food boxes/cake_boxes 3.png";
 import cakeBoxes7 from "@assets/Food boxes/cake_boxes 7.png";
 import cakeBox2 from "@assets/Food boxes/Cake box 2.jpg";
 
+
+
+import white1 from "@assets/white boxes/image1.jpeg";
+import white2 from "@assets/white boxes/image2.jpeg";
+import white3 from "@assets/white boxes/image3.jpeg";
+
 // Labels
 import label1 from "@assets/Labels/IMG-20250712-WA0026.jpg";
 import label2 from "@assets/Labels/IMG-20250712-WA0027.jpg";
@@ -920,6 +926,7 @@ const ServiceDetailsPage: React.FC = () => {
                 "Shipping and Retail: Perfect for a variety of distribution needs."
             ],
             galleryImages: [
+                white1, white2, white3
 
             ],
             keywords: "white boxes, shipping boxes, retail packaging, storage boxes"
